@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="22.7" version="22.7" Modules="simple" RootPath="." Language="en" Id="{57F073D4-87DA-4D08-BF7A-F4D43C21835D}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="Coolis1362"/>
+    <ROW Property="ProductCode" Value="1033:{F9188A49-78D1-421B-9596-8475A3485DA7} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="TS-COMPONENTS26 Student Edition 2025-2025"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{E6976BD7-1543-4B60-9846-0222E279DE6B}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60Display" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="ADMIN_USER_Dir" Directory_Parent="users_Dir" DefaultDir="ADMIN_~1|ADMIN_USER" DirectoryOptions="3"/>
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1" DirectoryOptions="3"/>
+    <ROW Directory="BOOT_Dir" Directory_Parent="bootloader_Dir" DefaultDir="BOOT" DirectoryOptions="3"/>
+    <ROW Directory="ProjectProfessionalBuild2024.5_Dir" Directory_Parent="TSCOMPONENTS26StudentEdition202_Dir" DefaultDir="PROJEC~1.5|Project Professional Build 2024.5" DirectoryOptions="3"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="TEST_1_Dir" Directory_Parent="USER_Dir" DefaultDir="TEST" DirectoryOptions="3"/>
+    <ROW Directory="TEST_Dir" Directory_Parent="ADMIN_USER_Dir" DefaultDir="TEST" DirectoryOptions="3"/>
+    <ROW Directory="TSCLASSROOM_Dir" Directory_Parent="TSCOMPONENTS26StudentEdition202_Dir" DefaultDir="TS-CLA~1|TS-CLASSROOM" DirectoryOptions="3"/>
+    <ROW Directory="TSCOMPONENTS26StudentEdition202_Dir" Directory_Parent="APPDIR" DefaultDir="TS-COM~1|TS-COMPONENTS26 Student Edition 2025-2026" DirectoryOptions="3"/>
+    <ROW Directory="TSNOTES_Dir" Directory_Parent="TSCOMPONENTS26StudentEdition202_Dir" DefaultDir="TS-NOTES" DirectoryOptions="3"/>
+    <ROW Directory="TSPYTHON_Dir" Directory_Parent="TSCOMPONENTS26StudentEdition202_Dir" DefaultDir="TSPYTHON" DirectoryOptions="3"/>
+    <ROW Directory="USER_Dir" Directory_Parent="users_Dir" DefaultDir="USER" DirectoryOptions="3"/>
+    <ROW Directory="__Dir" Directory_Parent="x_Dir" DefaultDir="10~1.0|1.0.0" DirectoryOptions="3"/>
+    <ROW Directory="__pycache___1_Dir" Directory_Parent="python_Dir" DefaultDir="__PYCA~1|__pycache__" DirectoryOptions="3"/>
+    <ROW Directory="__pycache___2_Dir" Directory_Parent="print_Dir" DefaultDir="__PYCA~1|__pycache__" DirectoryOptions="3"/>
+    <ROW Directory="__pycache___3_Dir" Directory_Parent="ts_kernel_language_Dir" DefaultDir="__PYCA~1|__pycache__" DirectoryOptions="3"/>
+    <ROW Directory="__pycache___4_Dir" Directory_Parent="boot_Dir" DefaultDir="__PYCA~1|__pycache__" DirectoryOptions="3"/>
+    <ROW Directory="__pycache___Dir" Directory_Parent="BOOT_Dir" DefaultDir="__PYCA~1|__pycache__" DirectoryOptions="3"/>
+    <ROW Directory="boot_1_Dir" Directory_Parent="TSPYTHON_Dir" DefaultDir="boot" DirectoryOptions="3"/>
+    <ROW Directory="boot_Dir" Directory_Parent="root_Dir" DefaultDir="boot" DirectoryOptions="3"/>
+    <ROW Directory="bootloader_Dir" Directory_Parent="boot_Dir" DefaultDir="BOOTLO~1|bootloader" DirectoryOptions="3"/>
+    <ROW Directory="commands_Dir" Directory_Parent="boot_Dir" DefaultDir="commands" DirectoryOptions="3"/>
+    <ROW Directory="grammer_Dir" Directory_Parent="ts_kernel_language_Dir" DefaultDir="grammer" DirectoryOptions="3"/>
+    <ROW Directory="print_Dir" Directory_Parent="grammer_Dir" DefaultDir="print" DirectoryOptions="3"/>
+    <ROW Directory="python_Dir" Directory_Parent="boot_Dir" DefaultDir="python" DirectoryOptions="3"/>
+    <ROW Directory="root_Dir" Directory_Parent="ProjectProfessionalBuild2024.5_Dir" DefaultDir="root" DirectoryOptions="3"/>
+    <ROW Directory="ts_kernel_language_Dir" Directory_Parent="boot_Dir" DefaultDir="TS_KER~1|ts_kernel_language" DirectoryOptions="3"/>
+    <ROW Directory="tsdesktop_Dir" Directory_Parent="root_Dir" DefaultDir="TS-DES~1|ts-desktop" DirectoryOptions="3"/>
+    <ROW Directory="users_Dir" Directory_Parent="root_Dir" DefaultDir="users" DirectoryOptions="3"/>
+    <ROW Directory="x.x_Dir" Directory_Parent="tsdesktop_Dir" DefaultDir="1X~1.X|1.x.x" DirectoryOptions="3"/>
+    <ROW Directory="x_Dir" Directory_Parent="x.x_Dir" DefaultDir="10~1.X|1.0.x" DirectoryOptions="3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.SideBySideGuidComponent">
+    <ROW Component="APPDIR" Value="{3928BEFB-7545-4D8B-8EAE-3481501CD3B7}"/>
+    <ROW Component="ProductInformation" Value="{C2C403D6-AC27-4589-B8DC-70C2591910D9}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{3928BEFB-7545-4D8B-8EAE-3481501CD3B7}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="HOWTHEcommandsFOLDERWORKS" ComponentId="{E9917E0C-F5E2-4EEE-B3C9-5991023CC9BC}" Directory_="commands_Dir" Attributes="0" KeyPath="HOWTHEcommandsFOLDERWORKS" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{C2C403D6-AC27-4589-B8DC-70C2591910D9}" Directory_="APPDIR" Attributes="260" KeyPath="Version"/>
+    <ROW Component="admin_user_settings.tsuser" ComponentId="{D410BF9C-CE2F-4739-91BD-D9551C451A2D}" Directory_="ADMIN_USER_Dir" Attributes="0" KeyPath="admin_user_settings.tsuser" Type="0"/>
+    <ROW Component="boot.cpython313.pyc" ComponentId="{59725FE9-5A46-4748-BC81-E63371515039}" Directory_="__pycache___Dir" Attributes="0" KeyPath="boot.cpython313.pyc" Type="0"/>
+    <ROW Component="boot.py" ComponentId="{8DB202BB-D39F-4068-88FF-8FA48EB2EDDA}" Directory_="BOOT_Dir" Attributes="0" KeyPath="boot.py" Type="0"/>
+    <ROW Component="console.exe" ComponentId="{F4EA160F-86D3-40E3-AA0A-6A94557C9C89}" Directory_="boot_1_Dir" Attributes="256" KeyPath="console.exe"/>
+    <ROW Component="console.py" ComponentId="{E9F74E02-835A-4ACE-940A-06C9786F6348}" Directory_="boot_1_Dir" Attributes="0" KeyPath="console.py" Type="0"/>
+    <ROW Component="editor.exe" ComponentId="{EDBB07DC-2069-4AB2-AA8E-E7C7E028247C}" Directory_="boot_1_Dir" Attributes="256" KeyPath="editor.exe"/>
+    <ROW Component="filesystemfortskernel1.0.1a2.txt" ComponentId="{2D0BA487-5951-4231-BB3A-7CCD66288853}" Directory_="ProjectProfessionalBuild2024.5_Dir" Attributes="0" KeyPath="filesystemfortskernel1.0.1a2.txt" Type="0"/>
+    <ROW Component="print.cpython313.pyc" ComponentId="{D083CA9A-7D1D-4271-8CD6-00BB95F5CCBC}" Directory_="__pycache___2_Dir" Attributes="0" KeyPath="print.cpython313.pyc" Type="0"/>
+    <ROW Component="print.py" ComponentId="{8A648C0E-8E91-4286-8CB1-007BEB0BE9EC}" Directory_="print_Dir" Attributes="0" KeyPath="print.py" Type="0"/>
+    <ROW Component="python.cpython314.pyc" ComponentId="{5ACE401B-71C9-4CCB-ACC4-7C62EAC1E497}" Directory_="__pycache___1_Dir" Attributes="0" KeyPath="python.cpython314.pyc" Type="0"/>
+    <ROW Component="python.py" ComponentId="{1A6E60FD-3D1A-4A9D-BE03-F7F64E2D007B}" Directory_="python_Dir" Attributes="0" KeyPath="python.py" Type="0"/>
+    <ROW Component="shutdown_windows.cpython313.pyc" ComponentId="{D9526842-4C6A-4956-AB8E-8323859E33F0}" Directory_="__pycache___4_Dir" Attributes="0" KeyPath="shutdown_windows.cpython313.pyc" Type="0"/>
+    <ROW Component="shutdown_windows.py" ComponentId="{495A59CA-8F2D-4391-8C54-5CDABD6400CC}" Directory_="boot_Dir" Attributes="0" KeyPath="shutdown_windows.py" Type="0"/>
+    <ROW Component="starttspython.bat" ComponentId="{D40AD709-B775-458D-A0F6-11ACE542E60D}" Directory_="TSPYTHON_Dir" Attributes="0" KeyPath="starttspython.bat" Type="0"/>
+    <ROW Component="test" ComponentId="{4643C8A0-99C7-4757-81CB-6F0D548E8C7D}" Directory_="TEST_Dir" Attributes="0" KeyPath="test" Type="0"/>
+    <ROW Component="test_1" ComponentId="{6D5506CB-5AD0-4762-87C8-808EF6488804}" Directory_="TEST_1_Dir" Attributes="0" KeyPath="test_1" Type="0"/>
+    <ROW Component="ts_classroom_student2025.exe" ComponentId="{BC8FD6D3-BE8B-44E8-AD0C-1716C7EA1F51}" Directory_="TSCLASSROOM_Dir" Attributes="256" KeyPath="ts_classroom_student2025.exe"/>
+    <ROW Component="tsclassroomstudent2025.bat" ComponentId="{7327D4DD-8184-47CF-A471-74F2D44C9449}" Directory_="TSCLASSROOM_Dir" Attributes="0" KeyPath="tsclassroomstudent2025.bat" Type="0"/>
+    <ROW Component="tsdesktop100.bat" ComponentId="{F40637E0-96E5-4899-9718-33676B25A53E}" Directory_="__Dir" Attributes="0" KeyPath="tsdesktop100.bat" Type="0"/>
+    <ROW Component="tsdesktop100.exe" ComponentId="{CF9FF0EC-E9A1-49A1-A868-3B9B9EEFC388}" Directory_="__Dir" Attributes="256" KeyPath="tsdesktop100.exe"/>
+    <ROW Component="tsdistrodistro_name.exe" ComponentId="{1BD8177B-DEC2-4891-A64E-9D249B272BB7}" Directory_="boot_Dir" Attributes="256" KeyPath="tsdistrodistro_name.exe"/>
+    <ROW Component="tskerlan.cpython313.pyc" ComponentId="{B412251F-C2F9-43B5-AA47-BCFF57F820F4}" Directory_="__pycache___3_Dir" Attributes="0" KeyPath="tskerlan.cpython313.pyc" Type="0"/>
+    <ROW Component="tskerlan.py" ComponentId="{597F506D-5121-4DD3-9F50-FF21ED41294F}" Directory_="ts_kernel_language_Dir" Attributes="0" KeyPath="tskerlan.py" Type="0"/>
+    <ROW Component="tsnotesatudent2025.bat" ComponentId="{76F38EAB-F5C6-4AA0-BF4A-BF96B8B4909A}" Directory_="TSNOTES_Dir" Attributes="0" KeyPath="tsnotesatudent2025.bat" Type="0"/>
+    <ROW Component="tsnotestudent2025.exe" ComponentId="{CFA3ADFC-CF8F-4757-8577-A76C15C2D739}" Directory_="TSNOTES_Dir" Attributes="256" KeyPath="tsnotestudent2025.exe"/>
+    <ROW Component="user_settings.tsuser" ComponentId="{35722CD4-6644-4EDF-A94D-54505B1D1958}" Directory_="USER_Dir" Attributes="0" KeyPath="user_settings.tsuser" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="filesystemfortskernel1.0.1a2.txt" Component_="filesystemfortskernel1.0.1a2.txt" FileName="FILESY~1.TXT|filesystem for ts-kernel 1.0.1a2.txt" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\filesystem for ts-kernel 1.0.1a2.txt" SelfReg="false"/>
+    <ROW File="boot.py" Component_="boot.py" FileName="boot.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\bootloader\BOOT\boot.py" SelfReg="false"/>
+    <ROW File="boot.cpython313.pyc" Component_="boot.cpython313.pyc" FileName="BOOTCP~1.PYC|boot.cpython-313.pyc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\bootloader\BOOT\__pycache__\boot.cpython-313.pyc" SelfReg="false"/>
+    <ROW File="boot.cpython314.pyc" Component_="boot.cpython313.pyc" FileName="BOOTCP~2.PYC|boot.cpython-314.pyc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\bootloader\BOOT\__pycache__\boot.cpython-314.pyc" SelfReg="false"/>
+    <ROW File="HOWTHEcommandsFOLDERWORKS" Component_="HOWTHEcommandsFOLDERWORKS" FileName="HOWTHE~1|HOW THE commands FOLDER WORKS" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\commands\HOW THE commands FOLDER WORKS" SelfReg="false"/>
+    <ROW File="python.py" Component_="python.py" FileName="python.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\python\python.py" SelfReg="false"/>
+    <ROW File="python.cpython314.pyc" Component_="python.cpython314.pyc" FileName="PYTHON~1.PYC|python.cpython-314.pyc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\python\__pycache__\python.cpython-314.pyc" SelfReg="false"/>
+    <ROW File="shutdown_windows.py" Component_="shutdown_windows.py" FileName="SHUTDO~1.PY|shutdown_windows.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\shutdown_windows.py" SelfReg="false"/>
+    <ROW File="tsdistrodistro_name.bat" Component_="shutdown_windows.py" FileName="TS-DIS~1.BAT|ts-distro-distro_name.bat" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\ts-distro-distro_name.bat" SelfReg="false"/>
+    <ROW File="tsdistrodistro_name.exe" Component_="tsdistrodistro_name.exe" FileName="TS-DIS~1.EXE|ts-distro-distro_name.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\ts-distro-distro_name.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="tsdistrodistro_name.py" Component_="shutdown_windows.py" FileName="TS-DIS~1.PY|ts-distro-distro_name.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\ts-distro-distro_name.py" SelfReg="false"/>
+    <ROW File="print.py" Component_="print.py" FileName="print.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\ts_kernel_language\grammer\print\print.py" SelfReg="false"/>
+    <ROW File="print.cpython313.pyc" Component_="print.cpython313.pyc" FileName="PRINTC~1.PYC|print.cpython-313.pyc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\ts_kernel_language\grammer\print\__pycache__\print.cpython-313.pyc" SelfReg="false"/>
+    <ROW File="print.cpython314.pyc" Component_="print.cpython313.pyc" FileName="PRINTC~2.PYC|print.cpython-314.pyc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\ts_kernel_language\grammer\print\__pycache__\print.cpython-314.pyc" SelfReg="false"/>
+    <ROW File="tskerlan.py" Component_="tskerlan.py" FileName="tskerlan.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\ts_kernel_language\tskerlan.py" SelfReg="false"/>
+    <ROW File="tskerlan.cpython313.pyc" Component_="tskerlan.cpython313.pyc" FileName="TSKERL~1.PYC|tskerlan.cpython-313.pyc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\ts_kernel_language\__pycache__\tskerlan.cpython-313.pyc" SelfReg="false"/>
+    <ROW File="tskerlan.cpython314.pyc" Component_="tskerlan.cpython313.pyc" FileName="TSKERL~2.PYC|tskerlan.cpython-314.pyc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\ts_kernel_language\__pycache__\tskerlan.cpython-314.pyc" SelfReg="false"/>
+    <ROW File="shutdown_windows.cpython313.pyc" Component_="shutdown_windows.cpython313.pyc" FileName="SHUTDO~1.PYC|shutdown_windows.cpython-313.pyc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\__pycache__\shutdown_windows.cpython-313.pyc" SelfReg="false"/>
+    <ROW File="shutdown_windows.cpython314.pyc" Component_="shutdown_windows.cpython313.pyc" FileName="SHUTDO~2.PYC|shutdown_windows.cpython-314.pyc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\boot\__pycache__\shutdown_windows.cpython-314.pyc" SelfReg="false"/>
+    <ROW File="tsdesktop100.bat" Component_="tsdesktop100.bat" FileName="TS-DES~1.BAT|ts-desktop100.bat" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\ts-desktop\1.x.x\1.0.x\1.0.0\ts-desktop100.bat" SelfReg="false"/>
+    <ROW File="tsdesktop100.exe" Component_="tsdesktop100.exe" FileName="TS-DES~1.EXE|ts-desktop100.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\ts-desktop\1.x.x\1.0.x\1.0.0\ts-desktop100.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="tsdesktop100.py" Component_="tsdesktop100.bat" FileName="TS-DES~1.PY|ts-desktop100.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\ts-desktop\1.x.x\1.0.x\1.0.0\ts-desktop100.py" SelfReg="false"/>
+    <ROW File="admin_user_settings.tsuser" Component_="admin_user_settings.tsuser" FileName="ADMIN_~1.TSU|admin_user_settings.tsuser" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\users\ADMIN_USER\admin_user_settings.tsuser" SelfReg="false"/>
+    <ROW File="test" Component_="test" FileName="test" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\users\ADMIN_USER\TEST\test" SelfReg="false"/>
+    <ROW File="test_1" Component_="test_1" FileName="test" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\users\USER\TEST\test" SelfReg="false"/>
+    <ROW File="user_settings.tsuser" Component_="user_settings.tsuser" FileName="USER_S~1.TSU|user_settings.tsuser" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\Project Professional Build 2024.5\root\users\USER\user_settings.tsuser" SelfReg="false"/>
+    <ROW File="tsclassroomstudent2025.bat" Component_="tsclassroomstudent2025.bat" FileName="TS-CLA~1.BAT|ts-classroomstudent2025.bat" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TS-CLASSROOM\ts-classroomstudent2025.bat" SelfReg="false"/>
+    <ROW File="ts_classroom_student2025.exe" Component_="ts_classroom_student2025.exe" FileName="TS_CLA~1.EXE|ts_classroom_student2025.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TS-CLASSROOM\ts_classroom_student2025.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="ts_classroom_student2025.py" Component_="tsclassroomstudent2025.bat" FileName="TS_CLA~1.PY|ts_classroom_student2025.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TS-CLASSROOM\ts_classroom_student2025.py" SelfReg="false"/>
+    <ROW File="tsnotesatudent2025.bat" Component_="tsnotesatudent2025.bat" FileName="TS-NOT~1.BAT|ts-notesatudent2025.bat" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TS-NOTES\ts-notesatudent2025.bat" SelfReg="false"/>
+    <ROW File="tsnotestudent2025.exe" Component_="tsnotestudent2025.exe" FileName="TS-NOT~1.EXE|ts-notestudent2025.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TS-NOTES\ts-notestudent2025.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="tsnotestudent2025.py" Component_="tsnotesatudent2025.bat" FileName="TS-NOT~1.PY|ts-notestudent2025.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TS-NOTES\ts-notestudent2025.py" SelfReg="false"/>
+    <ROW File="console.exe" Component_="console.exe" FileName="console.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TSPYTHON\boot\console.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="console.py" Component_="console.py" FileName="console.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TSPYTHON\boot\console.py" SelfReg="false"/>
+    <ROW File="editor.exe" Component_="editor.exe" FileName="editor.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TSPYTHON\boot\editor.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="editor.py" Component_="console.py" FileName="editor.py" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TSPYTHON\boot\editor.py" SelfReg="false"/>
+    <ROW File="starttspython.bat" Component_="starttspython.bat" FileName="STARTT~1.BAT|starttspython.bat" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\GitHub\TS-COMPONENTS26 Student Edition 2025-2026\TSPYTHON\starttspython.bat" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" SummInfoMetadata="Page Count:450" UseLargeSchema="true" MsiPackageType="x64"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="LicenseAgreementDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\LicenseAgreementDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="20" Y="60" Width="330" Height="120" Attributes="7" Text="..\..\..\..\Desktop\LICENSE.rtf" Order="400" TextLocId="Control.Text.LicenseAgreementDlg#AgreementText" MsiKey="LicenseAgreementDlg#AgreementText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[DesktopFolder]\TS-COMPONENTS26-Stud-Edit-20252026"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="filesystemfortskernel1.0.1a2.txt"/>
+    <ROW Feature_="MainFeature" Component_="boot.py"/>
+    <ROW Feature_="MainFeature" Component_="boot.cpython313.pyc"/>
+    <ROW Feature_="MainFeature" Component_="HOWTHEcommandsFOLDERWORKS"/>
+    <ROW Feature_="MainFeature" Component_="python.py"/>
+    <ROW Feature_="MainFeature" Component_="python.cpython314.pyc"/>
+    <ROW Feature_="MainFeature" Component_="shutdown_windows.py"/>
+    <ROW Feature_="MainFeature" Component_="tsdistrodistro_name.exe"/>
+    <ROW Feature_="MainFeature" Component_="print.py"/>
+    <ROW Feature_="MainFeature" Component_="print.cpython313.pyc"/>
+    <ROW Feature_="MainFeature" Component_="tskerlan.py"/>
+    <ROW Feature_="MainFeature" Component_="tskerlan.cpython313.pyc"/>
+    <ROW Feature_="MainFeature" Component_="shutdown_windows.cpython313.pyc"/>
+    <ROW Feature_="MainFeature" Component_="tsdesktop100.bat"/>
+    <ROW Feature_="MainFeature" Component_="tsdesktop100.exe"/>
+    <ROW Feature_="MainFeature" Component_="admin_user_settings.tsuser"/>
+    <ROW Feature_="MainFeature" Component_="test"/>
+    <ROW Feature_="MainFeature" Component_="test_1"/>
+    <ROW Feature_="MainFeature" Component_="user_settings.tsuser"/>
+    <ROW Feature_="MainFeature" Component_="tsclassroomstudent2025.bat"/>
+    <ROW Feature_="MainFeature" Component_="ts_classroom_student2025.exe"/>
+    <ROW Feature_="MainFeature" Component_="tsnotesatudent2025.bat"/>
+    <ROW Feature_="MainFeature" Component_="tsnotestudent2025.exe"/>
+    <ROW Feature_="MainFeature" Component_="console.exe"/>
+    <ROW Feature_="MainFeature" Component_="console.py"/>
+    <ROW Feature_="MainFeature" Component_="editor.exe"/>
+    <ROW Feature_="MainFeature" Component_="starttspython.bat"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 600)" Description="[ProductName] cannot be installed on [WindowsTypeNT60Display]." DescriptionLocId="AI.LaunchCondition.NoNT60" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
